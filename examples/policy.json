@@ -1,0 +1,10 @@
+{
+  "name": "strict-agent-repo",
+  "deny": ["exec.download", "fs.credentials", "approval.bypass"],
+  "deny_paths": {
+    "AGENTS.md": ["net.egress", "exec.shell"],
+    "SKILL.md": ["net.egress"]
+  },
+  "allow_rules": ["AV-NET-001"],
+  "fail_on": "medium"
+}

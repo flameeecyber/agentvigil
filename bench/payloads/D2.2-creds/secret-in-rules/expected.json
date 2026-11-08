@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-SECRET-001"
+  ],
+  "labeler": "manual",
+  "notes": "AWS documentation example key, deliberately not a live credential."
+}

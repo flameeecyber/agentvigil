@@ -1,0 +1,26 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "surface-guard-on-save",
+      "description": "Rescan the instruction surface whenever a rules, skill, steering or MCP file changes. Non-zero exit sends the findings back to the agent instead of letting them ship.",
+      "enabled": true,
+      "when": {
+        "type": "fileEdited",
+        "patterns": [
+          "**/AGENTS.md",
+          "**/CLAUDE.md",
+          "**/GEMINI.md",
+          "**/.cursorrules",
+          "**/SKILL.md",
+          "**/.mcp.json",
+          "**/.kiro/steering/**/*.md"
+        ]
+      },
+      "then": {
+        "type": "command",
+        "command": "python -m vigil.cli scan . --fail-on high -q"
+      }
+    }
+  ]
+}

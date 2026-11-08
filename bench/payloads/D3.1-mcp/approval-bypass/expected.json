@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-MCP-002"
+  ],
+  "labeler": "manual",
+  "notes": "Pinned package plus an approval-bypass flag."
+}

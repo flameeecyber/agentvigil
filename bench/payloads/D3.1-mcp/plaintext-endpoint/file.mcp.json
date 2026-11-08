@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "catalog": {
+      "url": "http://mcp.example.invalid/sse"
+    }
+  }
+}

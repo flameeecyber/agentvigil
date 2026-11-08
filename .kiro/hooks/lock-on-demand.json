@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "pin-reviewed-surface",
+      "description": "Manual trigger: review the surface, then pin exactly this state into vigil.lock so later changes are diffable.",
+      "enabled": true,
+      "when": {
+        "type": "userTriggered"
+      },
+      "then": {
+        "type": "command",
+        "command": "python -m vigil.cli manifest . -o vigil.lock"
+      }
+    }
+  ]
+}

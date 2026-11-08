@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-OBF-001"
+  ],
+  "labeler": "manual",
+  "notes": "Base64 decode piped to a shell; decoded payload is inert."
+}

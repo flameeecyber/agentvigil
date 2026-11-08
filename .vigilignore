@@ -1,0 +1,6 @@
+# Paths that contain attack samples or prose *about* attacks.
+# They are data, not instructions this project's agent obeys, so the repo can
+# gate itself cleanly. Everywhere else is still scanned.
+examples/
+bench/
+.kiro/specs/

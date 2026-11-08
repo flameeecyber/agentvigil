@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "vigil scan",
+      "type": "shell",
+      "command": "python -m vigil.cli scan ${workspaceFolder} --fail-on high",
+      "group": "test",
+      "presentation": { "reveal": "always", "panel": "new" },
+      "problemMatcher": {
+        "owner": "agentvigil",
+        "fileLocation": ["relative", "${workspaceFolder}"],
+        "pattern": {
+          "regexp": "^\\s+(critical|high|medium|low|info)\\s+(AV-[A-Z]+-\\d+)\\s+(.+):(\\d+)",
+          "severity": 1,
+          "code": 2,
+          "file": 3,
+          "line": 4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "agentvigil.lock/v1",
+  "tool": "agentvigil/0.1.0",
+  "generated_at": "2026-11-07T16:59:17+00:00",
+  "root": "2f5488bbd095e39f5eb65080c9c6a148e105b0738bfc2fecba74e4a5245b2a44",
+  "file_count": 9,
+  "files": [
+    {
+      "path": ".kiro/hooks/diff-on-stop.json",
+      "kind": "automation",
+      "sha256": "82af57f313d8a3a9c1070e833055e9e7daec772d30821f960b56df31f5788970",
+      "size": 515,
+      "capabilities": []
+    },
+    {
+      "path": ".kiro/hooks/lock-on-demand.json",
+      "kind": "automation",
+      "sha256": "e12c8ff3140a98f03c574c4d160ba4334698c9db2e162502bf4d0775a1ab5714",
+      "size": 422,
+      "capabilities": []
+    },
+    {
+      "path": ".kiro/hooks/pre-commit.sh",
+      "kind": "automation",
+      "sha256": "e6af5d8bb660afd46dc680f6b919339089ac5d5955c288a214413c578688a8eb",
+      "size": 710,
+      "capabilities": []
+    },
+    {
+      "path": ".kiro/hooks/surface-guard.json",
+      "kind": "automation",
+      "sha256": "325c308812713e5c59a3d86774999e6153aa4ca20c8476b7546260cbd16b2e07",
+      "size": 705,
+      "capabilities": []
+    },
+    {
+      "path": ".kiro/settings/mcp.json",
+      "kind": "mcp_config",
+      "sha256": "a28a598e58031f8dc1cda6bc0a3bc07ba01ddf6f0df9b3881fb8c2c4ca38b007",
+      "size": 280,
+      "capabilities": []
+    },
+    {
+      "path": ".kiro/steering/product.md",
+      "kind": "agent_rules",
+      "sha256": "add2ba50f5ffd629e47340ba596ee6bdf3114642098e99fa292762ab28f5a443",
+      "size": 1552,
+      "capabilities": []
+    },
+    {
+      "path": ".kiro/steering/project-rules.md",
+      "kind": "agent_rules",
+      "sha256": "a910916d896f839e2e5ca21c6141ea9585b13eadb1bd450366a4a76527974870",
+      "size": 1635,
+      "capabilities": []
+    },
+    {
+      "path": ".kiro/steering/ui-theme.md",
+      "kind": "agent_rules",
+      "sha256": "d11228da4912a8ad6c23e820627097b726807114141ad3f9fa1d1e0d84ac83da",
+      "size": 1466,
+      "capabilities": []
+    },
+    {
+      "path": ".vscode/tasks.json",
+      "kind": "automation",
+      "sha256": "c52bfb84ab232001ba91f098049164fe77aaf4fc65e78f0d3f063204e4701314",
+      "size": 619,
+      "capabilities": []
+    }
+  ],
+  "signature": null
+}

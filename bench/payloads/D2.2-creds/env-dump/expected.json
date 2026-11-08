@@ -1,0 +1,8 @@
+{
+  "must_fire": [
+    "AV-CRED-002"
+  ],
+  "labeler": "manual",
+  "min_severity": "medium",
+  "notes": "Environment enumeration; medium severity by rule design."
+}

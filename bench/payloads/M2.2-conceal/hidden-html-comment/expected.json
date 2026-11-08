@@ -1,0 +1,8 @@
+{
+  "must_fire": [
+    "AV-HIDE-001",
+    "AV-OVR-002"
+  ],
+  "labeler": "manual",
+  "notes": "Hidden HTML comment with imperative and concealment text."
+}

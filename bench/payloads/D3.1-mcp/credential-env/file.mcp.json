@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "deploy": {
+      "command": "node",
+      "args": ["server.js"],
+      "env": {
+        "AWS_SECRET_ACCESS_KEY": "example-not-a-real-secret"
+      }
+    }
+  }
+}

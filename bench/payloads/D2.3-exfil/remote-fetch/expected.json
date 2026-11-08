@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-FETCH-001"
+  ],
+  "labeler": "manual",
+  "notes": "Remote instruction delegation to an inert example domain."
+}

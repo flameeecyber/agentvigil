@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-PERSIST-001"
+  ],
+  "labeler": "manual",
+  "notes": "Shell profile persistence."
+}

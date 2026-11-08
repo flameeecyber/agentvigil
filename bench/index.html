@@ -1,0 +1,38 @@
+<!doctype html><html><head><meta charset=utf-8><title>vigil-bench corpus report</title></head><body><h1>vigil-bench 29/29 cases</h1><p>Required-rule coverage: 30/30<br>Benign quiet at high+: 13/13</p><table border=1 cellpadding=6><tr><th>case</th><th>fired</th><th>extra high+</th><th>verdict</th></tr><tr><td>D1.2-override/ignore-prior</td><td>AV-OVR-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.1-download-exec/curl-pipe</td><td>AV-EXEC-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.1-download-exec/eval-primitive</td><td>AV-EXEC-003</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.1-download-exec/shell-one-liner</td><td>AV-EXEC-002</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.2-creds/aws-key</td><td>AV-CRED-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.2-creds/env-dump</td><td>AV-CRED-002</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.2-creds/kiro-ref-traversal</td><td>AV-CRED-001,AV-REF-001</td><td>AV-CRED-001</td><td>PASS</td></tr>
+<tr><td>D2.2-creds/secret-in-rules</td><td>AV-SECRET-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.3-exfil/bulk-post</td><td>AV-EXFIL-002</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.3-exfil/remote-fetch</td><td>AV-FETCH-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>D2.3-exfil/webhook</td><td>AV-EXFIL-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>D3.1-mcp/approval-bypass</td><td>AV-BYP-001,AV-MCP-002</td><td>AV-BYP-001</td><td>PASS</td></tr>
+<tr><td>D3.1-mcp/credential-env</td><td>AV-MCP-005</td><td>—</td><td>PASS</td></tr>
+<tr><td>D3.1-mcp/inline-eval</td><td>AV-MCP-007</td><td>—</td><td>PASS</td></tr>
+<tr><td>D3.1-mcp/plaintext-endpoint</td><td>AV-MCP-004</td><td>—</td><td>PASS</td></tr>
+<tr><td>D3.1-mcp/tool-shadow</td><td>AV-CRED-001,AV-MCP-008</td><td>AV-CRED-001</td><td>PASS</td></tr>
+<tr><td>D3.1-mcp/unpinned</td><td>AV-MCP-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>D3.1-mcp/unpinned-skill</td><td>AV-REF-002</td><td>—</td><td>PASS</td></tr>
+<tr><td>M1.1-tool-spoof/chat-role</td><td>AV-TOOL-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>M1.3-obfuscation/base64-exec</td><td>AV-OBF-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>M1.3-obfuscation/bidi-override</td><td>AV-UNI-002</td><td>—</td><td>PASS</td></tr>
+<tr><td>M1.3-obfuscation/tag-hidden</td><td>AV-UNI-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>M1.3-obfuscation/vs-stego</td><td>AV-UNI-005</td><td>—</td><td>PASS</td></tr>
+<tr><td>M1.4-multimodal/remote-image-delegation</td><td>AV-IMG-004</td><td>—</td><td>PASS</td></tr>
+<tr><td>M1.4-multimodal/svg-event-handler</td><td>AV-IMG-002</td><td>—</td><td>PASS</td></tr>
+<tr><td>M1.4-multimodal/svg-script</td><td>AV-IMG-001</td><td>—</td><td>PASS</td></tr>
+<tr><td>M2.2-conceal/hidden-html-comment</td><td>AV-HIDE-001,AV-OVR-002</td><td>—</td><td>PASS</td></tr>
+<tr><td>M2.2-conceal/silent</td><td>AV-OVR-002</td><td>—</td><td>PASS</td></tr>
+<tr><td>P2.3-persistence/shell-profile</td><td>AV-PERSIST-001</td><td>—</td><td>PASS</td></tr></table><h2>By technique</h2><table border=1 cellpadding=6><tr><th>technique</th><th>cases</th><th>required rules</th></tr><tr><td>D1.2-override</td><td>1/1</td><td>1/1</td></tr>
+<tr><td>D2.1-download-exec</td><td>3/3</td><td>3/3</td></tr>
+<tr><td>D2.2-creds</td><td>4/4</td><td>4/4</td></tr>
+<tr><td>D2.3-exfil</td><td>3/3</td><td>3/3</td></tr>
+<tr><td>D3.1-mcp</td><td>7/7</td><td>7/7</td></tr>
+<tr><td>M1.1-tool-spoof</td><td>1/1</td><td>1/1</td></tr>
+<tr><td>M1.3-obfuscation</td><td>4/4</td><td>4/4</td></tr>
+<tr><td>M1.4-multimodal</td><td>3/3</td><td>3/3</td></tr>
+<tr><td>M2.2-conceal</td><td>2/2</td><td>3/3</td></tr>
+<tr><td>P2.3-persistence</td><td>1/1</td><td>1/1</td></tr></table><h2>Benign false positives</h2><ul></ul><h2>Corpus errors</h2><ul></ul><p><strong>Scope:</strong> hand-authored, in-repository synthetic cases. These numbers are corpus-specific, not an external benchmark.</p></body></html>

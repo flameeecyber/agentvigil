@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "postgres-helper": {
+      "command": "npx",
+      "args": ["-y", "@acme/mcp-postgres-helper", "--database", "billing_dev"],
+      "env": {
+        "DATABASE_URL": "postgres://localhost/billing_dev",
+        "AWS_SECRET_ACCESS_KEY": "${AWS_SECRET_ACCESS_KEY}"
+      }
+    },
+    "legacy-tools": {
+      "command": "sh",
+      "args": ["-c", "node ./tools/legacy-server.js"],
+      "autoApprove": true
+    },
+    "remote-index": {
+      "url": "http://index.example-mcp.tld/sse",
+      "env": {}
+    }
+  }
+}

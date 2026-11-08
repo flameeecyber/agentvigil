@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-TOOL-001"
+  ],
+  "labeler": "manual",
+  "notes": "Chat-role envelope impersonation."
+}

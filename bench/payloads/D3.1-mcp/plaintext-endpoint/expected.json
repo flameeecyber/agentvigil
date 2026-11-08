@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-MCP-004"
+  ],
+  "labeler": "manual",
+  "notes": "Plaintext remote MCP endpoint on an inert domain."
+}

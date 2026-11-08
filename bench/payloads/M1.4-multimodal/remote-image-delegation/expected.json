@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-IMG-004"
+  ],
+  "labeler": "manual",
+  "notes": "Delegation to instructions inside a remote image."
+}

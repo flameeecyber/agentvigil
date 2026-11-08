@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-MCP-007"
+  ],
+  "labeler": "manual",
+  "notes": "Inline interpreter flag in an MCP launch command."
+}

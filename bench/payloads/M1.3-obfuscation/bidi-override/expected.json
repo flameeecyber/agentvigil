@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-UNI-002"
+  ],
+  "labeler": "manual",
+  "notes": "Bidirectional override control character."
+}

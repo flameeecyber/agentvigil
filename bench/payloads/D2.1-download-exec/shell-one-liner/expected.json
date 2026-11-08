@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-EXEC-002"
+  ],
+  "labeler": "manual",
+  "notes": "Shell one-liner embedded in instructions."
+}

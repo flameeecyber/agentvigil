@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-EXEC-003"
+  ],
+  "labeler": "manual",
+  "notes": "Dynamic code execution primitive."
+}

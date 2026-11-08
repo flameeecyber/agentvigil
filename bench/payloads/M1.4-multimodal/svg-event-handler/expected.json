@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-IMG-002"
+  ],
+  "labeler": "manual",
+  "notes": "Event handler in SVG markup."
+}

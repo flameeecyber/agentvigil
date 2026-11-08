@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "agentvigil": {
+      "command": "python",
+      "args": ["-m", "vigil.cli", "mcp-serve"],
+      "disabled": false,
+      "autoApprove": [
+        "scan_surface",
+        "capability_report",
+        "verify_lock",
+        "list_rules"
+      ]
+    }
+  }
+}

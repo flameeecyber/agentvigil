@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-MCP-005"
+  ],
+  "labeler": "manual",
+  "notes": "Credential-shaped environment passthrough with an inert placeholder value."
+}

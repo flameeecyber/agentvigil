@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "catalog": {
+      "command": "npx",
+      "args": ["-y", "example-catalog@1.4.2"]
+    }
+  }
+}

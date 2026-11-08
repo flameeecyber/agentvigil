@@ -1,0 +1,7 @@
+{
+  "must_fire": [
+    "AV-EXFIL-002"
+  ],
+  "labeler": "manual",
+  "notes": "Bulk outbound POST to an inert example domain."
+}

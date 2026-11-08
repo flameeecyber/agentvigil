@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "capability-diff-on-stop",
+      "description": "When the agent finishes a turn, compare the surface with vigil.lock and report any newly granted capability. This is the rug-pull gate: approval happened at a known state, not at whatever the agent just wrote.",
+      "enabled": true,
+      "when": {
+        "type": "agentStop"
+      },
+      "then": {
+        "type": "command",
+        "command": "python -m vigil.cli diff --fail-on high"
+      }
+    }
+  ]
+}
